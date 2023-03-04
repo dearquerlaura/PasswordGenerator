@@ -1,0 +1,91 @@
+
+/* General ______________________________________ */
+
+:root{
+  --myGreen: #75E89F;
+  --myWhite: white;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    color: var(--myGreen);
+    font-family: 'Smooch Sans', sans-serif;
+    margin: 10%;
+}
+
+
+
+/* Styles ______________________________________ */
+
+h1 {
+    color: var(--myWhite);
+    font-size: 60px;
+    text-shadow: 0px 0px 10px black;
+}
+
+h3 {
+    font-size: 40px;
+    text-shadow: 0px 0px 10px black;
+}
+
+
+/* Containers ______________________________________ */
+
+.passwordsContainers {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 10% 0px;
+    padding-top: 10%;
+    border-top: 2px solid var(--myGreen);
+}
+
+
+/* Buttons ______________________________________ */
+
+button {
+    background-color: rgba(0, 0, 0, 0.596);
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3%;
+    color: var(--myGreen);
+    border: 2px solid var(--myGreen);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: var(--myGreen);
+    color: black;
+}
+
+.passwordButton {
+    margin: 0 5% 5% 0;
+    background-color: rgba(0, 0, 0, 0.765);
+    border: 1px solid #75e89f4d;
+    padding: 3% 15%;
+}
+
+.passwordButton:hover {
+    color: var(--myGreen);
+    border: 1px solid var(--myGreen);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+
+/* Imput ______________________________________ */
+
+
+#password-lenght-el { 
+    background-color: rgba(0, 0, 0, 0.596);
+    margin-right: 2%;
+    width: 160px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3%;
+    color: var(--myGreen);
+    border: 2px solid var(--myGreen);
+    border-radius: 10px;
+}

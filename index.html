@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator - Laura de Arquer</title>
+
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <h1> Generate a random password. </h1>
+    <h3> Never use an insecure password again. </h3>
+
+    <input id="password-lenght-el" type="number" max="24" min="4" placeholder="1. Choose lenght (4-24)">
+
+    <button id="generate-el" onclick="getPassword()"> 2. Generate passwords </button>
+
+
+    <div class="passwordsContainers">
+        <button id="password-one" class="passwordButton" onclick="copyPassword('password-one')"> Password 01 </button>
+        <button id="password-two" class="passwordButton" onclick="copyPassword('password-two')"> Password 02 </button>
+    </div>
+
+
+
+
+    <script src="./index.js"> </script>
+
+</body>
+
+
+</html>
